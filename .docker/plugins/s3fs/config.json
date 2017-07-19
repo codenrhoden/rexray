@@ -28,7 +28,7 @@
           "Value": ""
         },
         {
-          "Description": "", 
+          "Description": "",
           "Name": "S3FS_DISABLEPATHSTYLE",
           "Settable": [
             "value"
@@ -36,7 +36,7 @@
           "Value": ""
         },
         {
-          "Description": "", 
+          "Description": "",
           "Name": "S3FS_OPTIONS",
           "Settable": [
             "value"
@@ -54,6 +54,14 @@
         {
           "Description": "",
           "Name": "S3FS_SECRETKEY",
+          "Settable": [
+            "value"
+          ],
+          "Value": ""
+        },
+        {
+          "Description": "",
+          "Name": "HTTP_PROXY",
           "Settable": [
             "value"
           ],
@@ -78,7 +86,7 @@
           "Type": "bind",
           "Options": ["rbind"]
         }
-      ], 
+      ],
       "Network": {
         "Type": "host"
       },
